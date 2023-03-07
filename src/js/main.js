@@ -1,2 +1,3 @@
-// import "./supermercado"
+import "./supermercado"
+
 
