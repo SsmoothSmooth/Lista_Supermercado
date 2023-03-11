@@ -23,6 +23,24 @@ header {
     padding-left: 20px;
 }
 
+#categoria {
+    width: 300px;
+
+}
+
+#categoria:required:invalid {
+    color: gray;
+}
+
+#categoria option[value=""][disabled]{
+    display: none;
+}
+
+#categoria option {
+    color: black;
+}
+
+
 .lista-produto-single {
     padding: 10px 0;
     margin: 20px 0;
